@@ -1,0 +1,11 @@
+# Ambiente virtual e cache do Python
+venv/
+__pycache__/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Arquivo do banco de dados SQLite
+# Não queremos versionar os dados, apenas o código para criá-los!
+database.db

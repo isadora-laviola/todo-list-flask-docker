@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Minha Lista de Tarefas 📝</h1>
+
+    <form action="/adicionar" method="POST">
+        <input type="text" name="title" placeholder="Título da tarefa" required>
+        <input type="text" name="description" placeholder="Descrição">
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <hr>
+
+    <ul>
+        {% for tarefa in tarefas %}
+            <li>
+                <strong>{{ tarefa.title }}</strong>: {{ tarefa.description }}
+            </li>
+        {% else %}
+            <li>Nenhuma tarefa encontrada. Hora de relaxar!</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
