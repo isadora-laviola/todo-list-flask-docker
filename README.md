@@ -30,8 +30,7 @@ Para executar este projeto, você precisará ter o **Git** e o **Docker Desktop*
 
 1.  **Clone o repositório:**
     ```bash
-    # ATENÇÃO: Troque a URL pela URL do SEU repositório!
-    git clone [https://github.com/SEU-USUARIO/todo-list-flask-docker.git](https://github.com/SEU-USUARIO/todo-list-flask-docker.git)
+    git clone (https://github.com/isadora-laviola/todo-list-flask-docker.git)
     ```
 
 2.  **Navegue até a pasta do projeto:**
